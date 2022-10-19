@@ -208,7 +208,7 @@
         if(active){
             var time=parseInt((new Date()-startTime)/1000);
             var rest=period-time;
-            $("time#").html("経過時間:"+time);
+            $("#time").html("経過時間:"+time);
             $("#remain").html("残り時間:"+rest);
             analog(rest);
 
